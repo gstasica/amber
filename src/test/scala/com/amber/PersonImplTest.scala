@@ -1,8 +1,6 @@
 package com.amber
 
-import _root_.junit.framework.TestCase
-import com.amber.Person
-import com.amber.PersonImpl
+import junit.framework.TestCase
 
 class PersonImplTest extends TestCase {
 
