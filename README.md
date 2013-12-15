@@ -1,1 +1,1 @@
-My experiments with Scala language
+My experiments with Scala language and Twitter API
