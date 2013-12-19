@@ -3,7 +3,7 @@ apply plugin: 'scala'
 
 repositories {
     mavenCentral()
-    spray {
+    maven {
     	url "http://repo.spray.io"
     }
 }
@@ -12,7 +12,8 @@ dependencies {
     compile 'org.scala-lang:scala-library:2.10.3'
     compile 'com.typesafe.akka:akka-actor_2.10:2.2.3'
     compile 'io.spray:spray-client:1.2.0'
-    compile 'io.spray:spray-json:1.2.0'
+    compile 'io.spray:spray-http:1.2.0'
+    compile 'io.spray:spray-json_2.10:1.2.5'
     
 }
 
